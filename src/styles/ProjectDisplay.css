@@ -21,6 +21,7 @@
   .project p {
     font-size: 20px;
     color: #3e497a;
+    margin: 20px 10%;
   }
   
   .project svg {
@@ -36,6 +37,7 @@
     display: flex;
     text-align: center;
     justify-content:center;
+    padding: 0 10%;
   }
 
   .project .gitHubLink p {
@@ -44,4 +46,18 @@
 
   .gitHubLink:hover{
     text-decoration: underline;
+  }
+
+  @media only screen and (max-width: 320px) {
+    .project {
+      height: auto;
+    }
+
+    .project h1 {
+      font-size: 20px;
+    }
+
+    .project p {
+      font-size: 13px;
+    }
   }
